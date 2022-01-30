@@ -68,6 +68,15 @@ def avito(settings):
         name_price.append({__NAME: name, __PRICE: price, __URL: url})
 
     print(name_price)
+    # with open("infoParsing.txt", 'r', encoding="utf-8") as f:
+    #     for line in f:
+    #         _line = line.rstrip()
+    #         key = _line.split(":")[0]
+    #         value = _line.split(":")[1]
+    #         if key == __SITE:
+
+
+
     with open("infoParsing.txt", 'w', encoding="utf-8") as f:
         f.write("SITE: " + settings[__SITE] + "      ")
         f.write("SEARCH NAME: " + settings[__SEARCH_NAME] + "      ")
@@ -92,7 +101,6 @@ def dns(settings):
 def get_settings():
     settings_info = {}
     with open("Settings.txt", 'r', encoding="utf-8") as f:
-
         for line in f:
             _line = line.rstrip()
             key = _line.split(":")[0]
@@ -120,7 +128,6 @@ def get_settings():
                 settings_info[key] = value
 
     return settings_info
-
 
 
 def main():
