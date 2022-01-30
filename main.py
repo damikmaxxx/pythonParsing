@@ -66,7 +66,7 @@ def avito(settings):
             with open("infoParsing.txt", 'w', encoding="utf-8") as f:
                 f.write("SITE: " + settings[__SITE] + "      ")
                 f.write("SEARCH NAME: " + settings[__SEARCH_NAME] + "      ")
-                f.write("MIN_PRICE: " + str(settings[__MIN_PRICE]) + "      ")
+                f.write("MIN_PRICE: " + str(settings[__MIN_PRICE]) + "₽      ")
                 f.write("MAX_PRICE: " + str(settings[__MAX_PRICE]) + "₽\n\n")
                 f.write("Nothing found")
                 return False
@@ -106,6 +106,8 @@ def avito(settings):
                 arr_diff.append(new_items_info[i])
 
         items_info = copy.deepcopy(new_items_info)
+        print("New: ")
+        print(arr_diff)
         with open("infoParsing.txt", 'a', encoding="utf-8") as f:
             f.write("\n")
             f.write("New offer:\n")
@@ -114,9 +116,9 @@ def avito(settings):
                 f.write(_name + " "*(55 - len(_name)) + _price + " "*(12 - len(_price)) + _url + '\n')
 
         toast = ToastNotifier()
-        toast.show_toast("New offers", "Check infoParsing", duration=5, icon_path="icon.ico")
+        toast.show_toast("New offers", "Check infoParsing", duration=20, icon_path="icon.ico")
 
-        time.sleep(__TIME_REFRESH)
+        time.sleep(__TIME_REFRESH*5)
     return True
 
 
