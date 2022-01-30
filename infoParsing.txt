@@ -1,8 +1,7 @@
 SITE: avito      SEARCH NAME: rtx 3050      MIN_PRICE: 1000      MAX_PRICE: 60000₽
 
-RTX 3050 8GB                                           30 000 ₽  https://www.avito.ru/kazan/tovary_dlya_kompyutera/rtx_3050_8gb_2333278640
-Видеокарта rtx 3050                                    27 000 ₽  https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_rtx_3050_2304278737
-Видеокарта rtx 3050                                    25 000 ₽  https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_rtx_3050_2322347512
-Видеокарта rtx 3050                                    25 000 ₽  https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_rtx_3050_2328188785
-Видеокарта RTX 3050                                    27 000 ₽  https://www.avito.ru/kazan/igry_pristavki_i_programmy/videokarta_rtx_3050_2316143330
-Видеокарта Palit rtx 3050                              25 000 ₽  https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_palit_rtx_3050_2324225547
+RTX 3050 8GB                                           30 000 ₽    https://www.avito.ru/kazan/tovary_dlya_kompyutera/rtx_3050_8gb_2333278640
+Видеокарта rtx 3050                                    25 000 ₽    https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_rtx_3050_2328188785
+Видеокарта Palit rtx 3050                              25 000 ₽    https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_palit_rtx_3050_2324225547
+Видеокарта rtx 3050                                    50 000 ₽    https://www.avito.ru/kazan/tovary_dlya_kompyutera/videokarta_rtx_3050_2329529727
+Видеокарта RTX 3050                                    27 000 ₽    https://www.avito.ru/kazan/igry_pristavki_i_programmy/videokarta_rtx_3050_2316143330
