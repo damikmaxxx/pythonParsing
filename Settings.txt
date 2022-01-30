@@ -1,0 +1,5 @@
+site:avito
+searchName:rtx 3050
+maxPrice:60000
+minPrice:1000
+showInterface:1
